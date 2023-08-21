@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "PaintContextMenu";
+
+}
+<script src="~/Scripts/ControlsScript/DevExtremeContextMenu.js"></script>
+<link href="~/Content/ControlStyles/ContextMenu.css" rel="stylesheet" />
+<input type="hidden" id="hfBaseUrl" value="@HttpUtility.JavaScriptStringEncode(new Uri(new Uri(ViewContext.HttpContext.Request.Url.GetLeftPart(UriPartial.Authority)), Url.Content("~/")).ToString(), false)" />
+
+<div class="demo-container">
+    <input type="hidden" id="ContextMenuTestList" name="ContextMenuTestList" value="@ViewBag.ContextMenuTestList" />
+    <div class="label"> Right click the image to show available actions: </div>
+    <img id="image" src="~/Content/image/Laptop.png" />
+    <div id="context-menu">
+        @*<ul id='drpSaveAsMenus' class='btndropdown PopUpMenu'>
+                <li id="liSaveQuery">Query</li>
+                <li id="liGridReport">Grid Report</li>
+            </ul>*@
+    </div>
+    <div id="product-menu">
+    </div>
+    <div id="context-menu-withicons">
+    </div>
+    <input type="button" id="menuiconbutton" value="Show Menu with Icons" />
+</div>

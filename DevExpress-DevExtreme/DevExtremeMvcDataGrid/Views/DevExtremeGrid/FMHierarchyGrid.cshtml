@@ -1,0 +1,17 @@
+﻿
+
+<script src="~/lib/signalr/jquery.signalR.js"></script>
+<script src="~/lib/signalr/signalr-hub.js"></script>
+
+<script src="~/Scripts/ControlsScript/DataGrid/FMHierarchyGrid.js"></script>
+
+<link href="~/Content/ControlStyles/DataGrid.css" rel="stylesheet" />
+ 
+<div class="demo-container paddingTop">
+    <div id="gridContainer"></div>
+</div>
+ 
+<div id="context-menu"></div>
+
+<input type="hidden" id="hfBaseUrl" value="@HttpUtility.JavaScriptStringEncode(new Uri(new Uri(ViewContext.HttpContext.Request.Url.GetLeftPart(UriPartial.Authority)), Url.Content("~/")).ToString(), false)" />
+

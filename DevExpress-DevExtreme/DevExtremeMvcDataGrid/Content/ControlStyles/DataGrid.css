@@ -1,0 +1,44 @@
+﻿.hyperlinkText
+{
+    color: red !important;
+}
+
+.paddingTop
+{
+    padding-top: 150px;
+}
+
+.gridColumn[role="columnheader"]
+{
+    font-weight: bold;
+    color: #2e6e9e;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):not(.dx-row-removed) > td
+{
+    background-color: rgb(92, 149, 197) !important;
+    color: white !important;
+}
+
+.lockedRowColor
+{
+    background-color: lightpink !important;
+    color: white !important;
+}
+
+.unlockRowColor
+{
+    background-color: deepskyblue !important;
+    color: white !important;
+}
+
+.readonlyRowColor
+{
+    background-color: gray !important;
+    color: white !important;
+}
+
+.dx-datagrid-group-closed, .dx-datagrid-group-opened
+{   
+    color: black !important;
+}

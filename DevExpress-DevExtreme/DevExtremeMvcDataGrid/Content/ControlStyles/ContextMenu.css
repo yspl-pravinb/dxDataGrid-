@@ -1,0 +1,15 @@
+﻿#image
+{
+    height: 300px;
+}
+
+.label
+{
+    color: #767676;
+}
+
+.querycriteria_menugridforsaveas
+{
+    display: none;
+    visibility: hidden;
+}
