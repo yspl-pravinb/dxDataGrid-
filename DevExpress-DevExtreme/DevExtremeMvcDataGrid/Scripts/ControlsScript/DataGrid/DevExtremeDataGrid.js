@@ -216,8 +216,8 @@ $(() =>
         showRowLines: true,
 
         //Row selection 
-        //focusedRowEnabled: true,
-        //focusedRowIndex: 0,
+        focusedRowEnabled: true,
+        focusedRowIndex: 0,
 
         //Auto width true.
         columnAutoWidth: true,
@@ -276,6 +276,7 @@ $(() =>
         //Selection Mode
         selection: {
             mode: 'single',
+            deferred:true
         },
 
         //Column Chooser
@@ -349,18 +350,18 @@ $(() =>
                 }],
                 /*editorOptions: { searchEnabled: false },*/
                 //Drop-down Column
-                lookup: {
-                    dataSource: DevExpress.data.AspNet.createStore({
-                        key: 'Value',
-                        loadUrl: `${url}/CustomersLookup`,
-                        onBeforeSend(method, ajaxOptions)
-                        {
-                            ajaxOptions.xhrFields = { withCredentials: true };
-                        },
-                    }),
-                    valueExpr: 'Value',
-                    displayExpr: 'Text',
-                },
+                //lookup: {
+                //    dataSource: DevExpress.data.AspNet.createStore({
+                //        key: 'Value',
+                //        loadUrl: `${url}/CustomersLookup`,
+                //        onBeforeSend(method, ajaxOptions)
+                //        {
+                //            ajaxOptions.xhrFields = { withCredentials: true };
+                //        },
+                //    }),
+                //    valueExpr: 'Value',
+                //    displayExpr: 'Text',
+                //},
 
             },
             {
@@ -388,21 +389,21 @@ $(() =>
                 }],
                 format: 'MM/dd/yyyy HH:mm:ss'
             },
-            {
-                cssClass: "gridColumn",
-                dataField: 'Freight',
-                dataType: 'number',
-                allowHiding: true,
-                width: 'auto', //Required to set auto-width option to be work.
+            //{
+            //    cssClass: "gridColumn",
+            //    dataField: 'Freight',
+            //    dataType: 'number',
+            //    allowHiding: true,
+            //    width: 'auto', //Required to set auto-width option to be work.
 
-                format: "#0.0###"
-                //format: {
-                //    type: "fixedPoint",
-                //    //useCurrencyAccountingStyle: false,
-                //    precision: 2
-                //},
+            //    format: "#0.0###"
+            //    //format: {
+            //    //    type: "fixedPoint",
+            //    //    //useCurrencyAccountingStyle: false,
+            //    //    precision: 2
+            //    //},
 
-            },
+            //},
             {
                 cssClass: "gridColumn",
                 dataField: 'ShipCountry',
@@ -458,42 +459,42 @@ $(() =>
                 allowHiding: true, // Specifies whether a user can hide the column using the column chooser at runtime. Applies only if columnChooser.enabled is true.
                 width: 'auto', //Required to set auto-width option to be work.
                 dataType: 'number',
-                lookup: {
-                    dataSource: DevExpress.data.AspNet.createStore({
-                        key: 'Value',
-                        loadUrl: `${url}/ShippersLookup`,
-                        onBeforeSend(method, ajaxOptions)
-                        {
-                            ajaxOptions.xhrFields = { withCredentials: true };
-                        },
-                    }),
-                    valueExpr: 'Value', //drop-down key and value
-                    displayExpr: 'Text',
-                },
+                //lookup: {
+                //    dataSource: DevExpress.data.AspNet.createStore({
+                //        key: 'Value',
+                //        loadUrl: `${url}/ShippersLookup`,
+                //        onBeforeSend(method, ajaxOptions)
+                //        {
+                //            ajaxOptions.xhrFields = { withCredentials: true };
+                //        },
+                //    }),
+                //    valueExpr: 'Value', //drop-down key and value
+                //    displayExpr: 'Text',
+                //},
             },
             {
                 dataType: "string",
                 cssClass: "gridColumn",
                 dataField: 'ShipName',
-                editorType: "dxAutocomplete",
-                editorOptions: {
-                    dataSource: {
-                        load: function (options)
-                        {
-                            var temp = $.ajax({
-                                url: `${url}/ShipNameLookup`,
-                                dataType: "json",
-                                data: { search: options.searchValue }, // Pass the search value as a parameter
-                                async: false
-                            });
-                            return temp;
-                        },
-                        map: function (item)
-                        {
-                            return item;
-                        }
-                    },
-                },
+                //editorType: "dxAutocomplete",
+                //editorOptions: {
+                //    dataSource: {
+                //        load: function (options)
+                //        {
+                //            var temp = $.ajax({
+                //                url: `${url}/ShipNameLookup`,
+                //                dataType: "json",
+                //                data: { search: options.searchValue }, // Pass the search value as a parameter
+                //                async: false
+                //            });
+                //            return temp;
+                //        },
+                //        map: function (item)
+                //        {
+                //            return item;
+                //        }
+                //    },
+                //},
             },
             {
                 dataType: "string",
@@ -550,26 +551,26 @@ $(() =>
         //Aggregate
 
         //columns: strColumnNames,
-        summary: {
+        //summary: {
 
-            totalItems: [{
-                column: 'Freight',
-                summaryType: 'sum',
-                //Show custom text in summary.
-                customizeText: function (data)
-                {
-                    //Show dollar formatting.
-                    var precision = 2; // Number of decimal places
-                    var formattedValue = "Sum: $" + data.value.toFixed(precision);
-                    return formattedValue;
-                }
-            },
-            {
-                column: 'CustomerID',
-                summaryType: 'count',
-            }],
+        //    totalItems: [{
+        //        column: 'Freight',
+        //        summaryType: 'sum',
+        //        //Show custom text in summary.
+        //        customizeText: function (data)
+        //        {
+        //            //Show dollar formatting.
+        //            var precision = 2; // Number of decimal places
+        //            var formattedValue = "Sum: $" + data.value.toFixed(precision);
+        //            return formattedValue;
+        //        }
+        //    },
+        //    {
+        //        column: 'CustomerID',
+        //        summaryType: 'count',
+        //    }],
 
-        },
+        //},
 
         onCellPrepared(e)
         {

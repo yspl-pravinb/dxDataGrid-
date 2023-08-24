@@ -1,6 +1,7 @@
 ﻿using datagrid_webapi.Models;
 using DevExtreme.AspNet.Data;
 using DevExtreme.MVC.Demos.Models.DataGrid;
+using DevExtremeMvcDataGrid.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,8 @@ namespace DevExtremeMvcDataGrid.Controllers
         [HttpGet]
         public HttpResponseMessage Orders(DataSourceLoadOptions loadOptions)
         {
-            return Request.CreateResponse(DataSourceLoader.Load(_nwind.Orders, loadOptions));
+            //return Request.CreateResponse(DataSourceLoader.Load(_nwind.Orders, loadOptions));
+            return Request.CreateResponse(DataSourceLoader.Load(SampleData.Orders, loadOptions));
         }
 
         [HttpPost]
@@ -63,11 +65,14 @@ namespace DevExtremeMvcDataGrid.Controllers
         [HttpDelete]
         public void DeleteOrder(FormDataCollection form)
         {
-            var key = Convert.ToInt32(form.Get("key"));
-            var order = _nwind.Orders.First(o => o.OrderID == key);
+            //var key = Convert.ToInt32(form.Get("key"));
+            //var order = _nwind.Orders.First(o => o.OrderID == key);
 
-            _nwind.Orders.Remove(order);
-            _nwind.SaveChanges();
+            //_nwind.Orders.Remove(order);
+            //_nwind.SaveChanges();
+            var key = Convert.ToInt32(form.Get("key"));
+            var employee = SampleData.Orders.First(a => a.OrderID == key);
+            SampleData.Orders.Remove(employee);
         }
 
         // additional actions
