@@ -216,8 +216,8 @@ $(() =>
         showRowLines: true,
 
         //Row selection 
-        focusedRowEnabled: true,
-        focusedRowIndex: 0,
+        //focusedRowEnabled: true,
+        //focusedRowIndex: 0,
 
         //Auto width true.
         columnAutoWidth: true,
@@ -551,26 +551,20 @@ $(() =>
         //Aggregate
 
         //columns: strColumnNames,
-        //summary: {
+        //Aggregate
+        summary: {
 
-        //    totalItems: [{
-        //        column: 'Freight',
-        //        summaryType: 'sum',
-        //        //Show custom text in summary.
-        //        customizeText: function (data)
-        //        {
-        //            //Show dollar formatting.
-        //            var precision = 2; // Number of decimal places
-        //            var formattedValue = "Sum: $" + data.value.toFixed(precision);
-        //            return formattedValue;
-        //        }
-        //    },
-        //    {
-        //        column: 'CustomerID',
-        //        summaryType: 'count',
-        //    }],
+            //totalItems: [{
+            //    column: 'OrderID',
+            //    summaryType: 'sum',
+            //}],
+            groupItems: [{
+                column: 'ShipCountry',
+                summaryType: 'count',
+                displayFormat: '{0} Country',
+            }],
 
-        //},
+        },
 
         onCellPrepared(e)
         {
@@ -698,13 +692,13 @@ $(() =>
         onContentReady: function (e)
         {
             //Always select first row on grid refresh.
-            //var grid = e.component;
-            //var firstRowElement = grid.getRowElement(0);
+            var grid = e.component;
+            var firstRowElement = grid.getRowElement(0);
 
-            //if (firstRowElement)
-            //{
-            //    grid.selectRowsByIndexes([0]);
-            //}
+            if (firstRowElement)
+            {
+                grid.selectRowsByIndexes([0]);
+            }
         },
         onSelectionChanged: function (e)
         {
