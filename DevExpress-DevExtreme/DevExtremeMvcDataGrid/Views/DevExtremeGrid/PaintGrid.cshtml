@@ -15,5 +15,5 @@
 
 <input type="hidden" id="hfEditMode" value="batch" />
 <input type="hidden" id="hfBaseUrl" value="@HttpUtility.JavaScriptStringEncode(new Uri(new Uri(ViewContext.HttpContext.Request.Url.GetLeftPart(UriPartial.Authority)), Url.Content("~/")).ToString(), false)" />
-@*<input type="hidden" id="hfColModel" value="@ViewBag.columnNames" />*@
+<input type="hidden" id="hfSummary" value="@ViewBag.Summary" />
 

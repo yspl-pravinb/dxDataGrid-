@@ -1,7 +1,7 @@
 /*!
 * DevExtreme (dx.messages.ar.js)
-* Version: 23.1.3
-* Build date: Fri Jun 09 2023
+* Version: 23.1.5
+* Build date: Wed Aug 30 2023
 *
 * Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
@@ -181,11 +181,12 @@
             "dxDataGrid-ariaSelectAll": "\u062d\u062f\u062f \u0627\u0644\u0643\u0644",
             "dxDataGrid-ariaSelectRow": "\u062a\u062d\u062f\u064a\u062f \u0635\u0641",
             "dxDataGrid-ariaToolbar": "Data grid toolbar",
+            "dxDataGrid-ariaEditForm": "Edit form",
             "dxDataGrid-filterBuilderPopupTitle": "\u0639\u0627\u0645\u0644 \u0627\u0644\u062a\u0635\u0641\u064a\u0629",
             "dxDataGrid-filterPanelCreateFilter": "\u0625\u0646\u0634\u0627\u0621 \u0639\u0627\u0645\u0644 \u062a\u0635\u0641\u064a\u0629",
             "dxDataGrid-filterPanelClearFilter": "\u0645\u0633\u062d",
             "dxDataGrid-filterPanelFilterEnabledHint": "\u062a\u0645\u0643\u064a\u0646 \u0639\u0627\u0645\u0644 \u0627\u0644\u062a\u0635\u0641\u064a\u0629",
-            "dxTreeList-ariaTreeList": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0634\u062c\u0631\u0629",
+            "dxTreeList-ariaTreeList": "Tree list with {0} rows and {1} columns",
             "dxTreeList-ariaSearchInGrid": "Search in the tree list",
             "dxTreeList-ariaToolbar": "Tree list toolbar",
             "dxTreeList-editingAddRowToNode": "\u0627\u0636\u0627\u0641\u0629",

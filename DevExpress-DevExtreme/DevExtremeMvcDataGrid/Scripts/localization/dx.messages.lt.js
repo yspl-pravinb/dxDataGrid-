@@ -1,7 +1,7 @@
 /*!
 * DevExtreme (dx.messages.lt.js)
-* Version: 23.1.3
-* Build date: Fri Jun 09 2023
+* Version: 23.1.5
+* Build date: Wed Aug 30 2023
 *
 * Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
@@ -181,11 +181,12 @@
             "dxDataGrid-ariaSelectAll": "Pasirinkti visk\u0105",
             "dxDataGrid-ariaSelectRow": "Pasirinkti eilut\u0119",
             "dxDataGrid-ariaToolbar": "Duomen\u0173 lentel\u0117s \u012franki\u0173 juosta",
+            "dxDataGrid-ariaEditForm": "Edit form",
             "dxDataGrid-filterBuilderPopupTitle": "Filtr\u0173 konstruktorius",
             "dxDataGrid-filterPanelCreateFilter": "Sukurti filtr\u0105",
             "dxDataGrid-filterPanelClearFilter": "I\u0161valyti",
             "dxDataGrid-filterPanelFilterEnabledHint": "Aktyvuoti filtr\u0105",
-            "dxTreeList-ariaTreeList": "Duomen\u0173 medis",
+            "dxTreeList-ariaTreeList": "Tree list with {0} rows and {1} columns",
             "dxTreeList-ariaSearchInGrid": "Ie\u0161koti duomen\u0173 medyje",
             "dxTreeList-ariaToolbar": "Duomen\u0173 med\u017eio \u012franki\u0173 juosta",
             "dxTreeList-editingAddRowToNode": "Prid\u0117ti",

@@ -329,19 +329,19 @@
             <summary>Specifies text displayed for the UI component item title.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.TitleTemplate(System.String)">
-            <summary></summary>
+            <summary>Specifies a template that should be used to render the title for this item only.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.TitleTemplate(DevExtreme.AspNet.Mvc.RazorBlock)">
-            <summary></summary>
+            <summary>Specifies a template that should be used to render the title for this item only.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.TitleTemplate(DevExtreme.AspNet.Mvc.TemplateName)">
-            <summary></summary>
+            <summary>Specifies a template that should be used to render the title for this item only.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.TitleTemplate(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a template that should be used to render the title for this item only.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.TitleTemplate(System.Action)">
-            <summary></summary>
+            <summary>Specifies a template that should be used to render the title for this item only.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.AccordionItemBuilder.Visible(System.Boolean)">
             <summary>Specifies whether or not a UI component item must be displayed.</summary>
@@ -3351,52 +3351,52 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder">
-            <summary></summary>
+            <summary>Configures the column chooser&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.EditorOptions(System.Object)">
-            <summary></summary>
+            <summary>Configures the search box.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.Enabled(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether search is enabled in the column chooser.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.Enabled(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether search is enabled in the column chooser.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.Timeout(System.Double)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSearchConfigBuilder.Timeout(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder">
-            <summary></summary>
+            <summary>Configures column selection functionality within the column chooser.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.AllowSelectAll(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.AllowSelectAll(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.Recursive(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether selection is recursive.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.Recursive(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether selection is recursive.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.SelectByClick(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether an item becomes selected if a user clicks the item&apos;s label.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnChooserSelectionConfigBuilder.SelectByClick(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether an item becomes selected if a user clicks the item&apos;s label.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
@@ -3405,28 +3405,28 @@
             <summary></summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Enabled(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether search UI is enabled in the header filter.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Enabled(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether search UI is enabled in the header filter.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Mode(DevExtreme.AspNet.Mvc.CollectionSearchMode)">
-            <summary></summary>
+            <summary>Specifies a comparison operation used to search header filter values.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.SearchExpr(System.String[])">
-            <summary></summary>
+            <summary>Specifies a data object&apos;s field name or an expression whose value is compared to the search string.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.SearchExpr(System.Collections.Generic.IEnumerable{System.String})">
-            <summary></summary>
+            <summary>Specifies a data object&apos;s field name or an expression whose value is compared to the search string.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.SearchExpr(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a data object&apos;s field name or an expression whose value is compared to the search string.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Timeout(System.Double)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder.Timeout(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.CompareRuleBuilder">
             <summary>A validation rule that demands that a validated editor has a value that is equal to a specified expression.</summary>
@@ -4659,10 +4659,10 @@
             <summary>Specifies whether a user can hide the column using the column chooser at runtime. Applies only if columnChooser.enabled is true.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.AllowReordering(System.Boolean)">
-            <summary>Specifies whether this column can be used in column reordering at runtime. Applies only if allowColumnReordering is true.</summary>
+            <summary>Specifies whether users can reorder this column. Overrides the allowColumnReordering property value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.AllowReordering(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether this column can be used in column reordering at runtime. Applies only if allowColumnReordering is true.</summary>
+            <summary>Specifies whether users can reorder this column. Overrides the allowColumnReordering property value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.AllowResizing(System.Boolean)">
             <summary>Specifies whether a user can resize the column at runtime. Applies only if allowColumnResizing is true.</summary>
@@ -4932,16 +4932,16 @@
             <summary>Specifies a filter operation that applies when users use the filter row to filter the column.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.SetCellValue(System.String)">
-            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.</summary>
+            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it is saved in the data source.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.SetCellValue(DevExtreme.AspNet.Mvc.RazorBlock)">
-            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.</summary>
+            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it is saved in the data source.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.ShowEditorAlways(System.Boolean)">
-            <summary>Specifies whether the column displays its values using editors.</summary>
+            <summary>Specifies whether the column displays its values in editors.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.ShowEditorAlways(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether the column displays its values using editors.</summary>
+            <summary>Specifies whether the column displays its values in editors.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnBuilder`1.ShowInColumnChooser(System.Boolean)">
             <summary>Specifies whether the column chooser can contain the column header.</summary>
@@ -5181,10 +5181,10 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnHeaderFilterBuilder.AllowSelectAll(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnHeaderFilterBuilder.AllowSelectAll(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnHeaderFilterBuilder.DataSource(System.String)">
             <summary>Specifies the header filter&apos;s data source.</summary>
@@ -5223,7 +5223,7 @@
             <summary>Specifies the height of the popup menu containing filtering values.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnHeaderFilterBuilder.Search(System.Action{DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder})">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridColumnHeaderFilterBuilder.Width(System.Double)">
             <summary>Specifies the width of the popup menu containing filtering values.</summary>
@@ -6317,6 +6317,9 @@
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridSearchPanelBuilder.Width(System.Double)">
             <summary></summary>
         </member>
+        <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridSearchPanelBuilder.Width(System.String)">
+            <summary></summary>
+        </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DataGridSearchPanelBuilder.Width(DevExtreme.AspNet.Mvc.JS)">
             <summary></summary>
         </member>
@@ -7272,7 +7275,7 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.DateRangeBoxBuilder">
-            <summary></summary>
+            <summary>DateRangeBox is a UI component that allows a user to select a date range (pick or enter start and end dates).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DateRangeBoxBuilder.ID(System.String)">
             <summary>Specifies an HTML id for the widget&#39;s root element.</summary>
@@ -8115,7 +8118,7 @@
             <summary>Lists command sub items.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DiagramCustomCommandBuilder.Location(DevExtreme.AspNet.Mvc.ToolbarItemLocation)">
-            <summary></summary>
+            <summary>Specifies a location for the command or separator on the main toolbar.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.DiagramCustomCommandBuilder.Name(DevExtreme.AspNet.Mvc.DiagramCommand)">
             <summary>Specifies the custom command&apos;s identifier.</summary>
@@ -12129,10 +12132,10 @@
             <summary>Specifies a predefined format. Does not apply if you have specified the formatter function.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormatBuilder.UseCurrencyAccountingStyle(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to apply the accounting style to formatted numbers of the `currency` type.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormatBuilder.UseCurrencyAccountingStyle(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to apply the accounting style to formatted numbers of the `currency` type.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.FormBuilder`1">
             <summary>The Form UI component represents fields of a data object as a collection of label-editor pairs. These pairs can be arranged in several groups, tabs and columns.</summary>
@@ -12603,31 +12606,31 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Alignment(DevExtreme.AspNet.Mvc.HorizontalAlignment)">
-            <summary>Specifies the label&apos;s horizontal alignment. Applies only if the labelMode is &apos;outside&apos;.</summary>
+            <summary>Specifies the label&apos;s horizontal alignment. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Location(DevExtreme.AspNet.Mvc.FormLabelLocation)">
-            <summary>Specifies the location of a label against the editor. Applies only if the labelMode is &apos;outside&apos;.</summary>
+            <summary>Specifies the location of a label against the editor. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.ShowColon(System.Boolean)">
-            <summary>Specifies whether or not a colon is displayed at the end of the current label.</summary>
+            <summary>Specifies whether a colon is displayed at the end of the current label. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.ShowColon(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether or not a colon is displayed at the end of the current label.</summary>
+            <summary>Specifies whether a colon is displayed at the end of the current label. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Template(System.String)">
-            <summary></summary>
+            <summary>A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Template(DevExtreme.AspNet.Mvc.RazorBlock)">
-            <summary></summary>
+            <summary>A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Template(DevExtreme.AspNet.Mvc.TemplateName)">
-            <summary></summary>
+            <summary>A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Template(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Template(System.Action)">
-            <summary></summary>
+            <summary>A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Text(System.String)">
             <summary>Specifies the label text.</summary>
@@ -12636,10 +12639,10 @@
             <summary>Specifies the label text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Visible(System.Boolean)">
-            <summary>Specifies whether or not the label is visible.</summary>
+            <summary>Controls the visibility of the label outside the editor.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.FormItemLabelBuilder.Visible(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether or not the label is visible.</summary>
+            <summary>Controls the visibility of the label outside the editor.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.FormSimpleItemBuilder">
             <summary>This article describes configuration properties of a simple form item.</summary>
@@ -13629,7 +13632,7 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.GanttColumnBuilder`1">
-            <summary></summary>
+            <summary>Configures the column.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnBuilder`1.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
@@ -13842,10 +13845,10 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnHeaderFilterBuilder.AllowSelectAll(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnHeaderFilterBuilder.AllowSelectAll(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnHeaderFilterBuilder.DataSource(System.String)">
             <summary>Specifies the header filter&apos;s data source.</summary>
@@ -13884,7 +13887,7 @@
             <summary>Specifies the height of the popup menu containing filtering values.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnHeaderFilterBuilder.Search(System.Action{DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder})">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttColumnHeaderFilterBuilder.Width(System.Double)">
             <summary>Specifies the width of the popup menu containing filtering values.</summary>
@@ -14226,10 +14229,10 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterBuilder.AllowSelectAll(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterBuilder.AllowSelectAll(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterBuilder.Height(System.Double)">
             <summary>Specifies the height of the popup window that contains values for filtering.</summary>
@@ -14238,7 +14241,7 @@
             <summary>Specifies the height of the popup window that contains values for filtering.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterBuilder.Search(System.Action{DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder})">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterBuilder.Texts(System.Action{DevExtreme.AspNet.Mvc.Builders.GanttHeaderFilterTextsBuilder})">
             <summary>Contains properties that specify text for various elements of the popup window.</summary>
@@ -14637,7 +14640,7 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder">
-            <summary></summary>
+            <summary>A base object for gauge value and subvalue indicators. Includes the properties of indicators of all types.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
@@ -14667,13 +14670,13 @@
             <summary>Specifies a radius small enough for the indicator to begin adapting.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder.Color(System.String)">
-            <summary>Specifies a color of the indicator.</summary>
+            <summary>Specifies the color of the indicator.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder.Color(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies a color of the indicator.</summary>
+            <summary>Specifies the color of the indicator.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder.Color(System.Action{DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder})">
-            <summary>Specifies a color of the indicator.</summary>
+            <summary>Specifies the color of the indicator.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.GaugeIndicatorBuilder.HorizontalOrientation(DevExtreme.AspNet.Mvc.HorizontalEdge)">
             <summary>Specifies the orientation of the rangeBar indicator. Applies only if the geometry.orientation property is &apos;vertical&apos;.</summary>
@@ -14784,7 +14787,7 @@
             <summary>Specifies the range bar&apos;s label indent in pixels.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
@@ -14793,19 +14796,19 @@
             <summary></summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Enabled(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether search UI is enabled in the header filter.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Enabled(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether search UI is enabled in the header filter.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Mode(DevExtreme.AspNet.Mvc.CollectionSearchMode)">
-            <summary></summary>
+            <summary>Specifies a comparison operation used to search header filter values.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Timeout(System.Double)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HeaderFilterSearchConfigBuilder.Timeout(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a timeout, in milliseconds, during which a user may continue to modify the search value without starting the search operation.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.HtmlEditorBuilder">
             <summary>HtmlEditor is a WYSIWYG editor that allows you to format textual and visual content and to output it in HTML or Markdown. HtmlEditor is built on top of and requires the DevExtreme Quill.</summary>
@@ -15036,37 +15039,37 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.FileUploaderOptions(System.Action{DevExtreme.AspNet.Mvc.Builders.FileUploaderOptionsBuilder})">
-            <summary></summary>
+            <summary>Configures the file uploader options.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.FileUploadMode(DevExtreme.AspNet.Mvc.HtmlEditorImageUploadFileUploadMode)">
-            <summary></summary>
+            <summary>Specifies how the HtmlEditor UI component uploads files.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.Tabs(System.Collections.Generic.IEnumerable{DevExtreme.AspNet.Mvc.HtmlEditorImageUploadTab})">
-            <summary></summary>
+            <summary>Contains an array of tabs in the &apos;Add an Image&apos; dialog.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.Tabs(System.Action{DevExtreme.AspNet.Mvc.Factories.CollectionFactory{DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadTabItemBuilder}})">
-            <summary></summary>
+            <summary>Contains an array of tabs in the &apos;Add an Image&apos; dialog.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.UploadDirectory(System.String)">
-            <summary></summary>
+            <summary>Specifies a target directory for uploaded images.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.UploadDirectory(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a target directory for uploaded images.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.UploadUrl(System.String)">
-            <summary></summary>
+            <summary>Specifies a target Url for the upload request.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadBuilder.UploadUrl(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a target Url for the upload request.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadTabItemBuilder">
-            <summary></summary>
+            <summary>Configures the tab item in the upload image dialog.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadTabItemBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.HtmlEditorImageUploadTabItemBuilder.Name(DevExtreme.AspNet.Mvc.HtmlEditorImageUploadTab)">
-            <summary></summary>
+            <summary>Specifies the tab&apos;s name.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.HtmlEditorMediaResizingBuilder">
             <summary></summary>
@@ -17487,7 +17490,7 @@
             <summary>Specifies nested menu items.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.MenuItemBuilder.LinkAttr(System.Object)">
-            <summary></summary>
+            <summary>Specifies link attributes for the url option.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.MenuItemBuilder.Selectable(System.Boolean)">
             <summary>Specifies whether or not a user can select a menu item.</summary>
@@ -17523,10 +17526,10 @@
             <summary>Specifies the text inserted into the item element.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.MenuItemBuilder.Url(System.String)">
-            <summary></summary>
+            <summary>Specifies a web address to be opened when a user clicks on an item.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.MenuItemBuilder.Url(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies a web address to be opened when a user clicks on an item.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.MenuItemBuilder.Visible(System.Boolean)">
             <summary>Specifies whether or not the menu item is visible.</summary>
@@ -19617,7 +19620,7 @@
             <summary>Specifies text displayed for the UI component item.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PopoverToolbarItemBuilder.Toolbar(DevExtreme.AspNet.Mvc.Toolbar)">
-            <summary></summary>
+            <summary>Specifies whether the item is displayed on a top or bottom toolbar.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PopoverToolbarItemBuilder.Visible(System.Boolean)">
             <summary>Specifies whether or not a UI component item must be displayed.</summary>
@@ -20046,7 +20049,7 @@
             <summary>Specifies text displayed for the UI component item.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PopupToolbarItemBuilder.Toolbar(DevExtreme.AspNet.Mvc.Toolbar)">
-            <summary></summary>
+            <summary>Specifies whether the item is displayed on a top or bottom toolbar.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PopupToolbarItemBuilder.Visible(System.Boolean)">
             <summary>Specifies whether or not a UI component item must be displayed.</summary>
@@ -24930,7 +24933,7 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.TabPanelBuilder">
-            <summary>The TabPanel is a UI component consisting of the Tabs and MultiView UI components. It automatically synchronizes the selected tab with the currently displayed view and vice versa.</summary>
+            <summary>The TabPanel is a UI component consisting of the Tabs and MultiView UI components. It automatically synchronizes the selected tab with the currently displayed view, and vice versa.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TabPanelBuilder.ID(System.String)">
             <summary>Specifies an HTML id for the widget&#39;s root element.</summary>
@@ -25287,7 +25290,7 @@
             <summary>Specifies the item title text displayed on a corresponding tab.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.TabsBuilder">
-            <summary>The Tabs is a tab strip used to switch between pages or views. This UI component is included in the TabPanel UI component, but you can use the Tabs separately as well.</summary>
+            <summary>The Tabs component is a tab strip used to switch between pages or views. This UI component is included in the TabPanel UI component, but you can use Tabs separately as well.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TabsBuilder.ID(System.String)">
             <summary>Specifies an HTML id for the widget&#39;s root element.</summary>
@@ -28629,10 +28632,10 @@
             <summary>Specifies whether a user can hide the column using the column chooser at runtime. Applies only if columnChooser.enabled is true.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.AllowReordering(System.Boolean)">
-            <summary>Specifies whether this column can be used in column reordering at runtime. Applies only if allowColumnReordering is true.</summary>
+            <summary>Specifies whether users can reorder this column. Overrides the allowColumnReordering property value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.AllowReordering(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether this column can be used in column reordering at runtime. Applies only if allowColumnReordering is true.</summary>
+            <summary>Specifies whether users can reorder this column. Overrides the allowColumnReordering property value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.AllowResizing(System.Boolean)">
             <summary>Specifies whether a user can resize the column at runtime. Applies only if allowColumnResizing is true.</summary>
@@ -28869,16 +28872,16 @@
             <summary>Specifies a filter operation that applies when users use the filter row to filter the column.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.SetCellValue(System.String)">
-            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.</summary>
+            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it is saved in the data source.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.SetCellValue(DevExtreme.AspNet.Mvc.RazorBlock)">
-            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.</summary>
+            <summary>Specifies a function to be invoked after the user has edited a cell value, but before it is saved in the data source.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.ShowEditorAlways(System.Boolean)">
-            <summary>Specifies whether the column displays its values using editors.</summary>
+            <summary>Specifies whether the column displays its values in editors.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.ShowEditorAlways(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Specifies whether the column displays its values using editors.</summary>
+            <summary>Specifies whether the column displays its values in editors.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnBuilder`1.ShowInColumnChooser(System.Boolean)">
             <summary>Specifies whether the column chooser can contain the column header.</summary>
@@ -29109,10 +29112,10 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnHeaderFilterBuilder.AllowSelectAll(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnHeaderFilterBuilder.AllowSelectAll(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether a &apos;Select All&apos; option is available to users.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnHeaderFilterBuilder.DataSource(System.String)">
             <summary>Specifies the header filter&apos;s data source.</summary>
@@ -29151,7 +29154,7 @@
             <summary>Specifies the height of the popup menu containing filtering values.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnHeaderFilterBuilder.Search(System.Action{DevExtreme.AspNet.Mvc.Builders.ColumnHeaderFilterSearchConfigBuilder})">
-            <summary></summary>
+            <summary>Configures the header filter&apos;s search functionality.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListColumnHeaderFilterBuilder.Width(System.Double)">
             <summary>Specifies the width of the popup menu containing filtering values.</summary>
@@ -30047,6 +30050,9 @@
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListSearchPanelBuilder.Width(System.Double)">
             <summary></summary>
         </member>
+        <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListSearchPanelBuilder.Width(System.String)">
+            <summary></summary>
+        </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.TreeListSearchPanelBuilder.Width(DevExtreme.AspNet.Mvc.JS)">
             <summary></summary>
         </member>
@@ -30864,43 +30870,43 @@
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.EndValue(System.DateTime)">
-            <summary></summary>
+            <summary>The range&apos;s end value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.EndValue(System.Double)">
-            <summary></summary>
+            <summary>The range&apos;s end value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.EndValue(System.String)">
-            <summary></summary>
+            <summary>The range&apos;s end value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.EndValue(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>The range&apos;s end value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.Length(System.Action{DevExtreme.AspNet.Mvc.Builders.VisualRangeLengthBuilder})">
-            <summary></summary>
+            <summary>The range&apos;s length.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.Length(DevExtreme.AspNet.Mvc.VizTimeInterval)">
-            <summary></summary>
+            <summary>The range&apos;s length.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.Length(System.Double)">
-            <summary></summary>
+            <summary>The range&apos;s length.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.Length(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>The range&apos;s length.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.StartValue(System.DateTime)">
-            <summary></summary>
+            <summary>The range&apos;s start value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.StartValue(System.Double)">
-            <summary></summary>
+            <summary>The range&apos;s start value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.StartValue(System.String)">
-            <summary></summary>
+            <summary>The range&apos;s start value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeBuilder.StartValue(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>The range&apos;s start value.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.VisualRangeLengthBuilder">
-            <summary></summary>
+            <summary>The range&apos;s length.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.VisualRangeLengthBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
@@ -35490,10 +35496,10 @@
             <summary>Configures hatching that applies when a user points to the series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user hovers the mouse pointer over it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user hovers the mouse pointer over it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsHoverStyleBuilder.Width(System.Double)">
             <summary>Specifies the pixel-measured width of the series line when the series is in the hovered state.</summary>
@@ -35595,10 +35601,10 @@
             <summary>Customizes the text displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for point labels.</summary>
@@ -36000,10 +36006,10 @@
             <summary>Configures hatching that applies when a user selects the series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartCommonSeriesSettingsSelectionStyleBuilder.Width(System.Double)">
             <summary>Specifies the pixel-measured width of the series line when the series is in the selected state.</summary>
@@ -36855,22 +36861,22 @@
             <summary></summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder">
-            <summary></summary>
+            <summary>Specifies the chart&apos;s color.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder.Option(System.String,System.Object)">
             <summary>Specifies an option by its name.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder.Base(System.String)">
-            <summary></summary>
+            <summary>Specifies the base color for series, points and labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder.Base(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the base color for series, points and labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder.FillId(System.String)">
-            <summary></summary>
+            <summary>Specifies the id of the gradient or pattern.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder.FillId(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the id of the gradient or pattern.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.ChartScrollBarBuilder">
             <summary></summary>
@@ -37221,10 +37227,10 @@
             <summary>Configures hatching that applies when a user points to the series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user hovers the mouse pointer over it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user hovers the mouse pointer over it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesHoverStyleBuilder.Width(System.Double)">
             <summary>Specifies the pixel-measured width of the series line when the series is in the hovered state.</summary>
@@ -37326,10 +37332,10 @@
             <summary>Customizes the text displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for point labels.</summary>
@@ -37731,10 +37737,10 @@
             <summary>Configures hatching that applies when a user selects the series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.ChartSeriesSelectionStyleBuilder.Width(System.Double)">
             <summary>Specifies the pixel-measured width of the series line when the series is in the selected state.</summary>
@@ -43338,22 +43344,22 @@
             <summary>An object defining the border properties for a hovered series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Color(System.String)">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Color(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Color(System.Action{DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder})">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Hatching(System.Action{DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleHatchingBuilder})">
             <summary>Specifies the hatching properties to be applied when a point is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsHoverStyleHatchingBuilder">
             <summary>Specifies the hatching properties to be applied when a point is hovered over.</summary>
@@ -43446,10 +43452,10 @@
             <summary>Specifies a callback function that returns the text to be displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for the text displayed in point labels.</summary>
@@ -43554,22 +43560,22 @@
             <summary>An object defining the border properties for a selected series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Color(System.String)">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Color(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Color(System.Action{DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder})">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Hatching(System.Action{DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleHatchingBuilder})">
             <summary>Specifies the hatching properties to be applied when a point is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.PieChartCommonSeriesSettingsSelectionStyleHatchingBuilder">
             <summary>Specifies the hatching properties to be applied when a point is selected.</summary>
@@ -44169,22 +44175,22 @@
             <summary>An object defining the border properties for a hovered series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Color(System.String)">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Color(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Color(System.Action{DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder})">
-            <summary>Sets a color for the series when it is hovered over.</summary>
+            <summary>Sets the color for the series when it is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Hatching(System.Action{DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleHatchingBuilder})">
             <summary>Specifies the hatching properties to be applied when a point is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesHoverStyleHatchingBuilder">
             <summary>Specifies the hatching properties to be applied when a point is hovered over.</summary>
@@ -44277,10 +44283,10 @@
             <summary>Specifies a callback function that returns the text to be displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for the text displayed in point labels.</summary>
@@ -44385,22 +44391,22 @@
             <summary>An object defining the border properties for a selected series.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Color(System.String)">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Color(DevExtreme.AspNet.Mvc.JS)">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Color(System.Action{DevExtreme.AspNet.Mvc.Builders.ChartsColorBuilder})">
-            <summary>Sets a color for a series when it is selected.</summary>
+            <summary>Sets the color for a series when it is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Hatching(System.Action{DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleHatchingBuilder})">
             <summary>Specifies the hatching properties to be applied when a point is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="T:DevExtreme.AspNet.Mvc.Builders.PieChartSeriesSelectionStyleHatchingBuilder">
             <summary>Specifies the hatching properties to be applied when a point is selected.</summary>
@@ -46968,10 +46974,10 @@
             <summary>Specifies the hatching properties to be applied when a series is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsHoverStyleBuilder.Width(System.Double)">
             <summary>Specifies the width of a line in a hovered series.</summary>
@@ -47070,10 +47076,10 @@
             <summary>Specifies a callback function that returns the text to be displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for the text displayed in point labels.</summary>
@@ -47385,10 +47391,10 @@
             <summary>Specifies the hatching properties to be applied when a series is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartCommonSeriesSettingsSelectionStyleBuilder.Width(System.Double)">
             <summary>Specifies the width of a line in a selected series.</summary>
@@ -48120,10 +48126,10 @@
             <summary>Specifies the hatching properties to be applied when a series is hovered over.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesHoverStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesHoverStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user points to it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesHoverStyleBuilder.Width(System.Double)">
             <summary>Specifies the width of a line in a hovered series.</summary>
@@ -48222,10 +48228,10 @@
             <summary>Specifies a callback function that returns the text to be displayed by point labels.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesLabelBuilder.DisplayFormat(System.String)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesLabelBuilder.DisplayFormat(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies the label&apos;s text.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesLabelBuilder.Font(System.Action{DevExtreme.AspNet.Mvc.Builders.VizFontBuilder})">
             <summary>Specifies font properties for the text displayed in point labels.</summary>
@@ -48537,10 +48543,10 @@
             <summary>Specifies the hatching properties to be applied when a series is selected.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesSelectionStyleBuilder.Highlight(System.Boolean)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesSelectionStyleBuilder.Highlight(DevExtreme.AspNet.Mvc.JS)">
-            <summary></summary>
+            <summary>Specifies whether to lighten the series when a user selects it.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Builders.PolarChartSeriesSelectionStyleBuilder.Width(System.Double)">
             <summary>Specifies the width of a line in a selected series.</summary>
@@ -54435,10 +54441,10 @@
             <summary>The DateBox is a UI component that displays date and time in a specified format, and enables a user to pick or type in the required date/time value.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.DateRangeBox">
-            <summary></summary>
+            <summary>DateRangeBox is a UI component that allows a user to select a date range (pick or enter start and end dates).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.DateRangeBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
-            <summary></summary>
+            <summary>DateRangeBox is a UI component that allows a user to select a date range (pick or enter start and end dates).</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.Diagram">
             <summary>The Diagram UI component provides a visual interface to help you design new and modify existing diagrams.</summary>
@@ -54585,10 +54591,10 @@
             <summary>The Switch is a UI component that can be in two states: &apos;On&apos; and &apos;Off&apos;.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.TabPanel">
-            <summary>The TabPanel is a UI component consisting of the Tabs and MultiView UI components. It automatically synchronizes the selected tab with the currently displayed view and vice versa.</summary>
+            <summary>The TabPanel is a UI component consisting of the Tabs and MultiView UI components. It automatically synchronizes the selected tab with the currently displayed view, and vice versa.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.Tabs">
-            <summary>The Tabs is a tab strip used to switch between pages or views. This UI component is included in the TabPanel UI component, but you can use the Tabs separately as well.</summary>
+            <summary>The Tabs component is a tab strip used to switch between pages or views. This UI component is included in the TabPanel UI component, but you can use Tabs separately as well.</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.WidgetFactory`1.TagBox">
             <summary>The TagBox UI component is an editor that allows an end user to select multiple items from a drop-down list.</summary>
@@ -54682,6 +54688,9 @@
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.FormItemEditorFactory.DateBox">
             <summary>[descr:dxDateBox]</summary>
+        </member>
+        <member name="M:DevExtreme.AspNet.Mvc.Factories.FormItemEditorFactory.DateRangeBox">
+            <summary>[descr:dxDateRangeBox]</summary>
         </member>
         <member name="M:DevExtreme.AspNet.Mvc.Factories.FormItemEditorFactory.DropDownBox">
             <summary>[descr:dxDropDownBox]</summary>

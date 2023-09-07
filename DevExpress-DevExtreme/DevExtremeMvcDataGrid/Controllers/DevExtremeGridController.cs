@@ -3,6 +3,7 @@ using System.Runtime.Remoting.Messaging;
 using System;
 using System.Web.Mvc;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace DevExtremeMvcDataGrid.Controllers
 {
@@ -50,6 +51,20 @@ namespace DevExtremeMvcDataGrid.Controllers
             public int? precision;
         }
 
+        class ColModelSummary
+        {
+            [JsonProperty("totalItems")]
+            public List<ColModelTotalItems> TotalItems;
+        }
+        class ColModelTotalItems
+        {
+            [JsonProperty("column")]
+            public string Column;
+            [JsonProperty("summaryType")]
+            public string SummaryType;
+            [JsonProperty("caption")]
+            public string Caption;  //Add caption in class for internal use. It is not a property of datagrid
+        }
         public ActionResult PaintGrid()
         {
             //ColModelParam[] tp = new ColModelParam[2];
@@ -83,6 +98,16 @@ namespace DevExtremeMvcDataGrid.Controllers
 
             //string columnNames = JsonConvert.SerializeObject(tp, jsonSerializerSettings);
             //ViewBag.columnNames = columnNames;
+            List<ColModelTotalItems> aggrFunctions = new List<ColModelTotalItems>
+            {
+                new ColModelTotalItems { Column = "ShipCountry", SummaryType = "count", Caption = "ShipCountry" }
+            };
+            ColModelSummary summary = new ColModelSummary
+            {
+                TotalItems = aggrFunctions
+            };
+            ViewBag.Summary = JsonConvert.SerializeObject(summary);
+
             return View();
         }
          

@@ -1,7 +1,7 @@
 /*!
 * DevExtreme (dx.messages.ja.js)
-* Version: 23.1.3
-* Build date: Fri Jun 09 2023
+* Version: 23.1.5
+* Build date: Wed Aug 30 2023
 *
 * Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
@@ -176,16 +176,17 @@
             "dxDataGrid-ariaFilterCell": "\u30d5\u30a3\u30eb\u30bf\u30fc \u30bb\u30eb",
             "dxDataGrid-ariaCollapse": "\u6298\u308a\u305f\u305f\u3080",
             "dxDataGrid-ariaExpand": "\u5c55\u958b",
-            "dxDataGrid-ariaDataGrid": "\u30c7\u30fc\u30bf \u30b0\u30ea\u30c3\u30c9",
+            "dxDataGrid-ariaDataGrid": "{0} \u884c\u3068 {1} \u5217\u306e\u30c7\u30fc\u30bf \u30b0\u30ea\u30c3\u30c9",
             "dxDataGrid-ariaSearchInGrid": "\u30c7\u30fc\u30bf \u30b0\u30ea\u30c3\u30c9\u5185\u3067\u691c\u7d22",
             "dxDataGrid-ariaSelectAll": "\u3059\u3079\u3066\u3092\u9078\u629e",
             "dxDataGrid-ariaSelectRow": "\u884c\u306e\u9078\u629e",
             "dxDataGrid-ariaToolbar": "\u30c7\u30fc\u30bf \u30b0\u30ea\u30c3\u30c9\u306e\u30c4\u30fc\u30eb \u30d0\u30fc",
+            "dxDataGrid-ariaEditForm": "Edit form",
             "dxDataGrid-filterBuilderPopupTitle": "\u30d5\u30a3\u30eb\u30bf\u30fc \u30d3\u30eb\u30c0\u30fc",
             "dxDataGrid-filterPanelCreateFilter": "\u30d5\u30a3\u30eb\u30bf\u30fc\u306e\u4f5c\u6210",
             "dxDataGrid-filterPanelClearFilter": "\u30af\u30ea\u30a2",
             "dxDataGrid-filterPanelFilterEnabledHint": "\u30d5\u30a3\u30eb\u30bf\u30fc\u306e\u6709\u52b9\u5316",
-            "dxTreeList-ariaTreeList": "\u30c4\u30ea\u30fc \u30ea\u30b9\u30c8",
+            "dxTreeList-ariaTreeList": "{0} \u884c\u3068 {1} \u5217\u306e\u30c4\u30ea\u30fc \u30ea\u30b9\u30c8",
             "dxTreeList-ariaSearchInGrid": "\u30c4\u30ea\u30fc \u30ea\u30b9\u30c8\u5185\u3092\u691c\u7d22\u3059\u308b",
             "dxTreeList-ariaToolbar": "\u30c4\u30ea\u30fc \u30ea\u30b9\u30c8\u306e\u30c4\u30fc\u30eb \u30d0\u30fc",
             "dxTreeList-editingAddRowToNode": "\u8ffd\u52a0",

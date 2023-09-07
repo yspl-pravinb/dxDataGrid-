@@ -1,7 +1,7 @@
 /*!
 * DevExtreme (dx.messages.sv.js)
-* Version: 23.1.3
-* Build date: Fri Jun 09 2023
+* Version: 23.1.5
+* Build date: Wed Aug 30 2023
 *
 * Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
@@ -181,11 +181,12 @@
             "dxDataGrid-ariaSelectAll": "V\xe4lj allt",
             "dxDataGrid-ariaSelectRow": "V\xe4lj rad",
             "dxDataGrid-ariaToolbar": "Data grid toolbar",
+            "dxDataGrid-ariaEditForm": "Edit form",
             "dxDataGrid-filterBuilderPopupTitle": "Filterverktyg",
             "dxDataGrid-filterPanelCreateFilter": "Skapa filter",
             "dxDataGrid-filterPanelClearFilter": "Rensa",
             "dxDataGrid-filterPanelFilterEnabledHint": "Aktivera filter",
-            "dxTreeList-ariaTreeList": "Tr\xe4dlista",
+            "dxTreeList-ariaTreeList": "Tree list with {0} rows and {1} columns",
             "dxTreeList-ariaSearchInGrid": "Search in the tree list",
             "dxTreeList-ariaToolbar": "Tree list toolbar",
             "dxTreeList-editingAddRowToNode": "L\xe4gg till",

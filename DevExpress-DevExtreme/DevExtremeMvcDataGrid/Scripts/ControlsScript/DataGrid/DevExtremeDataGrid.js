@@ -12,6 +12,7 @@ $(() =>
     const url = $('#hfBaseUrl').val() + 'api/DataGridWebApi';
     //var varColModel = $("#hfColModel").val();
     //var strColumnNames = JSON.parse(varColModel);
+    var summaryInfo = JSON.parse($("#hfSummary").val());
 
     //UpdateJSONObjectOfColModel(strColumnNames);
 
@@ -554,37 +555,65 @@ $(() =>
         //Aggregate
         summary: {
 
-            //totalItems: [{
-            //    column: 'OrderID',
-            //    summaryType: 'sum',
-            //}],
-            groupItems: [{
-                column: 'ShipCountry',
-                summaryType: 'count',
-                displayFormat: '{0} Country',
+            totalItems: [{
+                column: 'OrderID',
+                summaryType: 'sum',
             }],
+            //groupItems: [{
+            //    column: 'ShipCountry',
+            //    summaryType: 'count',
+            //    displayFormat: '{0} Country',
+            //},
+            //    {
+            //        column: 'ShipCity',
+            //        summaryType: 'count',
+            //    }
+            //],
 
         },
 
         onCellPrepared(e)
         {
-            //Display all column header text align to left.
-            if (e.rowType === 'header')
+            if (e.rowType === 'group' && summaryInfo != null)
             {
-                e.cellElement[0].style.textAlign = 'left';
-            }
+                //debugger
+                var groupText = e.cellElement[0].textContent;
+                if (groupText.length === 0) return;
 
-            //Show context menu on right click.
-            if (e.rowType === "data")
-            {
-                e.cellElement.on("contextmenu", function (event)
+                
+                //Set group aggregation i.e count, sum, min, max in group summary header.
+                const arr = [];
+                let displayValue = '';
+                let appendText = '';
+                if (e.data.items[0].key == undefined)
                 {
-                    event.preventDefault();
-                    var rowIndex = e.rowIndex;
-                    $("#grid").dxContextMenu("instance").option("rowIndex", rowIndex);
-                    $("#grid").dxContextMenu("instance").show(event.pageX, event.pageY);
-                });
+                    for (var i = 0; i < summaryInfo.totalItems.length; i++)
+                    {
+                        arr.length = 0; //clear array before adding data
+                        //Add group data in array required for aggregation calculation.
+                        e.data.items.forEach(function (arrayItem)
+                        {
+                            arr.push(arrayItem[summaryInfo.totalItems[i].column]);
+                        });
 
+                        
+                        //Create group summary i.e sum, count, min, max etc
+                        appendText = " of '" + summaryInfo.totalItems[i].caption + "' is ";
+                        displayValue = displayValue != '' ? displayValue + ' , ' : '';
+                        
+                        displayValue = (summaryInfo.totalItems[i].summaryType == 'count') ? displayValue + ' Count' + appendText + e.data.items.length :
+                            (summaryInfo.totalItems[i].summaryType == 'sum') ? displayValue + ' Sum' + appendText + arr.reduce((a, b) => a + b, 0) :
+                                (summaryInfo.totalItems[i].summaryType == 'average') ? displayValue + ' Average' + appendText + arr.reduce((a, b) => a + b, 0) / arr.length :
+                                    (summaryInfo.totalItems[i].summaryType == 'max') ? displayValue + ' Max' + appendText + Math.max(...arr) :
+                                        (summaryInfo.totalItems[i].summaryType == 'min') ? displayValue + ' Min' + appendText + Math.min(...arr) : '';
+                        
+
+                    }
+                    displayValue = displayValue != '' ? '(' + displayValue + ')' : '';
+                    
+                }
+
+                e.cellElement[0].innerHTML = e.cellElement[0].innerHTML + displayValue;
             }
         },
 

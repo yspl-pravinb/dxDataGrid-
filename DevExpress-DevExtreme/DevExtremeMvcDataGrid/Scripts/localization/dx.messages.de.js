@@ -1,7 +1,7 @@
 /*!
 * DevExtreme (dx.messages.de.js)
-* Version: 23.1.3
-* Build date: Fri Jun 09 2023
+* Version: 23.1.5
+* Build date: Wed Aug 30 2023
 *
 * Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
@@ -176,16 +176,17 @@
             "dxDataGrid-ariaFilterCell": "Filterzelle",
             "dxDataGrid-ariaCollapse": "Zusammenklappen",
             "dxDataGrid-ariaExpand": "Aufklappen",
-            "dxDataGrid-ariaDataGrid": "Datentabelle",
+            "dxDataGrid-ariaDataGrid": "Datentabelle mit {0} Zeilen und {1} Spalten",
             "dxDataGrid-ariaSearchInGrid": "Suchen in der Datentabelle",
             "dxDataGrid-ariaSelectAll": "Alle ausw\xe4hlen",
             "dxDataGrid-ariaSelectRow": "Zeile ausw\xe4hlen",
             "dxDataGrid-ariaToolbar": "Symbolleiste der Datentabelle",
+            "dxDataGrid-ariaEditForm": "Edit form",
             "dxDataGrid-filterBuilderPopupTitle": "Filter-Generator",
             "dxDataGrid-filterPanelCreateFilter": "Filter erzeugen",
             "dxDataGrid-filterPanelClearFilter": "Zur\xfccksetzen",
             "dxDataGrid-filterPanelFilterEnabledHint": "Filter aktivieren",
-            "dxTreeList-ariaTreeList": "Strukturliste",
+            "dxTreeList-ariaTreeList": "TreeList mit {0} Zeilen und {1} Spalten",
             "dxTreeList-ariaSearchInGrid": "Suchen in der Strukturliste",
             "dxTreeList-ariaToolbar": "Symbolleiste der Strukturliste",
             "dxTreeList-editingAddRowToNode": "Hinzuf\xfcgen",
